@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             nota1 = Double.parseDouble(etNota1.getText().toString());
             nota2 = Double.parseDouble(etNota2.getText().toString());
             frequencia = Integer.parseInt(etFrequencia.getText().toString());
-        } catch (NumberFormatException) {
+        } catch (NumberFormatException e){
             Toast.makeText(this, "Dados informados inválidos!", Toast.LENGTH_SHORT).show();
             return;
         }
