@@ -1,18 +1,17 @@
 package br.ufpr.tads.luis.calculasituacaoaluno;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.widget.EditText;
-import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Resultado extends AppCompatActivity {
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class ResultActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resultado);
-
+        setContentView(R.layout.activity_result);
         TextView tvAluno = findViewById(R.id.textViewAluno);
         TextView tvMediaFinal = findViewById(R.id.textViewMedia);
         TextView tvSituacao = findViewById(R.id.textViewSituacao);

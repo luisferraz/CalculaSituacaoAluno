@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         params.putDouble("media", media);
 
         //Cria um intent e atribui o bundle a ele
-        Intent it = new Intent(this, Resultado.class);
+        Intent it = new Intent(this, ResultActivity.class);
         it.putExtras(params);
 
         //Invoca a activity de resultado
