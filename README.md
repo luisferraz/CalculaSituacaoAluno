@@ -12,7 +12,7 @@ Aplicação Android desenvolvida para a disciplina DS151 - Desenvolvimento Para 
 
 ## 🛠️ Construído com
 
-* [Andoid Studio](https://developer.android.com/studio) - API 22
+* [Android Studio](https://developer.android.com/studio) - API 22
 
 ## ✒️ Autores
 
